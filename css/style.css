@@ -1,0 +1,187 @@
+/* RESET */
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/* CONTAINER */
+    .container{
+    width: 700px;
+    margin: auto;
+    }
+/* HEADER */
+    .nav-bar{
+        background-color: #add8e6;
+        height: 100px;
+        padding: 25px;
+        
+    }
+
+    nav{
+        background-color: #daa520;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border: 2px dashed black;
+        
+    }
+
+    .logo{
+        border-right: 3px dashed black;
+        text-align: left;
+        padding: 10px;
+    }
+    .link{
+        text-align: center;
+        padding: 10px;
+    }
+    .login{
+        border-left:3px dashed black; 
+        text-align: right;
+        padding: 10px;
+    }
+
+    /* PRIMA SEZIONE BANNER */
+    .banner-blu{
+        height: 500px;
+        background-color: #00008b;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+        
+    
+
+    .banner-rosa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        background-color:#EE82EE;
+        width: 600px;
+    }   
+    
+    /* PRIMA SEZIONE A DUE COLONNE */
+    .riga-sup, .riga-centr, .riga-ultim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        
+    }
+    .blu{
+
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        background-color: #1e90ff;
+        border: 1px dashed black;
+        
+    }
+    .rosa{
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        background-color: #ffc0cb;
+        border: 1px dashed black;
+        
+    }
+
+    /* SECONDA SEZIONE A DUE COLONNE */
+        .background{
+            background-color: #d3d3d3;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    /* TERZA SEZIONE=PRIMA SEZIONE */
+
+    /* QUARTA SEZIONE */
+        .sfondo{
+            background-color: #d3d3d3;
+            height: 700px;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .verde{
+            background-color: #228b22;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 650px;
+            border: 1px dashed black;
+            margin-bottom: 50px;
+        }
+
+        /* FOOTER TOP */
+        .sfondo-footertop{
+            background-color: #23272a;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+        }
+        .footer{
+            width: 700px;
+            margin: auto;
+            display: flex;
+        }    
+        
+        .item-rosa{
+            width:20%;
+            height: 450px;
+            background-color: #f08080;
+            border: 1px dashed black;
+            display: flex;
+            flex-grow: 2;
+        }
+        .item-blu{
+            width: 10%;
+            height: 450px;
+            background-color: #20b2aa;
+            border:1px dashed black;
+            display: flex;
+            flex-grow: 1;
+        } 
+        
+        /* FOOTER BOTTOM */
+        .background-footer{
+            background-color: #23272a;
+            margin-top: 5px;
+            height: 100px;
+            display: flex;
+        }
+        .nav-footer{
+            background-color: #7fffd4;
+            height: 80px;
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+        }    
+        button{
+            background-color: #ffb6c1;
+            border: 1px dashed black;
+            padding:5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }    
+            
+        
+        
+
+    
+        
+
+    
