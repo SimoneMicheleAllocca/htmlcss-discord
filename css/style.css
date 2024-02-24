@@ -28,6 +28,12 @@
         text-decoration: none;
         color: white;
     }
+
+    .container{
+        width: 700px;
+        margin: auto;
+    }
+    
     
 /* HEADER */
     
@@ -79,9 +85,10 @@
 
     /* PRIMA SEZIONE BANNER */
     .banner-blu{
-        max-width:;
-        height: 500px;
+        /* height: 500px; */
         /* background-color: #00008b; */
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
         padding: 50px;
         display: flex;
         justify-content: center;
@@ -91,47 +98,94 @@
     
 
     .banner-rosa{
+        display: ruby;
+        
+        /* height: 350px; */
+        /* background-color:#EE82EE; */
+        width: 50%;
+        color: white;
+    }
+
+    .pink-title{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 350px;
-        background-color:#EE82EE;
-        width: 600px;
-    }   
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+        
+    }
+
+    p{
+        font-size: 15px;
+        margin: 25px 25px;
+        line-height: 25px;
+        /* color: white; */
+        font-weight: 300;
+        /* text-align: center; */
+        /* display: flex; */
+    }
+
+    .btn-mac{
+        border-radius: 10px;
+        padding:10px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 15px;
+    }
+
+    .btn-broswer{
+        border-radius: 10px;
+        padding:10px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
     
     /* PRIMA SEZIONE A DUE COLONNE */
     .riga-sup, .riga-centr, .riga-ultim{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 50px;
+         margin: 50px;
+         /* padding: 20px; */
         
     }
     .blu{
 
-        height: 350px;
-        display: flex;
+        /* height: 350px; */
+        /* display: flex; */
         justify-content: center;
-        width: 60%;
-        background-color: #1e90ff;
-        border: 1px dashed black;
+        align-items: center;
+        /* width: 60%; */
+        justify-content: right;
+        /* background-color: #1e90ff; */
+        /* border: 1px dashed black; */
         
     }
     .rosa{
-        height: 350px;
-        display: flex;
+        /* height: 350px; */
+        /* display: flex; */
         justify-content: center;
         width: 40%;
-        background-color: #ffc0cb;
-        border: 1px dashed black;
+        /* background-color: #ffc0cb; */
+        /* border: 1px dashed black; */
         
+    }
+
+    .box-title{
+        /* display: flex; */
+        font-size:30px;
+        font-weight: 800;
+        text-align: left;
+        padding-bottom: 10px;
     }
 
     /* SECONDA SEZIONE A DUE COLONNE */
         .background{
             background-color: #d3d3d3;
             height: 500px;
-            display: flex;
+            /* display: flex; */
             justify-content: center;
             align-items: center;
         }
@@ -139,9 +193,9 @@
     /* TERZA SEZIONE=PRIMA SEZIONE */
 
     /* QUARTA SEZIONE */
-        .sfondo{
-            background-color: #d3d3d3;
-            height: 700px;
+         .sfondo{ 
+            /* background-color: #d3d3d3; */
+            /* height: 700px; */
             padding: 50px;
             display: flex;
             justify-content: center;
@@ -149,19 +203,24 @@
         }
 
         .verde{
-            background-color: #228b22;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 650px;
-            border: 1px dashed black;
-            margin-bottom: 50px;
+            /* background-color: #228b22; */
+            /* display: flex; */
+            /* justify-content: center; */
+            text-align: center;
+            width: 80%;
+            /* height: 650px; */
+            /* border: 1px dashed black; */
+            /* margin-bottom: 50px; */
+        }
+        .star{
+            width: 30%;
+            margin:0 auto;
         }
 
         /* FOOTER TOP */
         .sfondo-footertop{
             background-color: #23272a;
-            height: 500px;
+            /* height: 500px; */
             display: flex;
             justify-content: center;
             align-items: center ;
