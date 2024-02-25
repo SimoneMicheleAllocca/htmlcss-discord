@@ -30,8 +30,9 @@
     }
 
     .container{
-        width: 700px;
+        width: 900px;
         margin: auto;
+        display: flex;
     }
     
     
@@ -39,7 +40,7 @@
     
     header{
         background-color: #255ee9;
-        height: 40px;
+        height: 100px;
         justify-content: center;
         align-items: center;
     }
@@ -88,11 +89,12 @@
         /* height: 500px; */
         /* background-color: #00008b; */
         background-image: url(../img/jumbo.png);
-        background-size: cover;
-        padding: 50px;
-        display: flex;
+        background-size:cover;
+        padding: 50px; 
+        display: flex; 
         justify-content: center;
-        align-items: center;
+        text-align: center;
+        
     }   
         
     
@@ -145,8 +147,7 @@
     /* PRIMA SEZIONE A DUE COLONNE */
     .riga-sup, .riga-centr, .riga-ultim{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* align-items: center; */
          margin: 50px;
          /* padding: 20px; */
         
@@ -155,8 +156,6 @@
 
         /* height: 350px; */
         /* display: flex; */
-        justify-content: center;
-        align-items: center;
         /* width: 60%; */
         justify-content: right;
         /* background-color: #1e90ff; */
@@ -217,6 +216,12 @@
             margin:0 auto;
         }
 
+        .bottom{
+            margin-top: 20px;
+            background-color: #7289da;
+            color: white;
+        }
+
         /* FOOTER TOP */
         .sfondo-footertop{
             background-color: #23272a;
@@ -224,53 +229,93 @@
             display: flex;
             justify-content: center;
             align-items: center ;
+            flex-direction: column;
+            row-gap: 5px;
         }
         .footer{
-            width: 700px;
-            margin: auto;
             display: flex;
-        }    
+            justify-content: center;
+            width: 70%;
+            margin: auto;
+            font-size: 20px;
+        } 
         
         .item-rosa{
-            width:20%;
-            height: 450px;
-            background-color: #f08080;
-            border: 1px dashed black;
+            width:50%;
+            color: white;
+            /* height: 450px; */
+            /* background-color: #f08080; */
+            /* border: 1px dashed black; */
+            /* display: flex; */
+            /* flex-grow: 2; */
+            padding: 20px 20px;
+        }
+
+        .flag-ita{
+            width:30px;
+            height: 25px;
             display: flex;
-            flex-grow: 2;
+            margin: 20px;
+        }
+        .icons{
+            margin: 10px;
+            display: flex;
+            padding: 15px;
+            column-gap: 15px;
         }
         .item-blu{
-            width: 10%;
-            height: 450px;
-            background-color: #20b2aa;
-            border:1px dashed black;
+            width: 20%;
+            /* height: 450px; */
+            /* background-color: #20b2aa; */
+            /* border:1px dashed black; */
             display: flex;
-            flex-grow: 1;
+            flex-direction: column;
+            color: white;
+            line-height: 25px;
+            font-size: 16px;
+            padding: 15px;
+            /* flex-grow: 1; */
         } 
+        
+        .list-footer{
+            color:#7289da;
+        }
         
         /* FOOTER BOTTOM */
         .background-footer{
             background-color: #23272a;
             margin-top: 5px;
-            height: 100px;
+            /* height: 100px; */
             display: flex;
         }
+        
         .nav-footer{
-            background-color: #7fffd4;
-            height: 80px;
-            width: 700px;
+            /* background-color: #7fffd4; */
+            /* height: 80px; */
+            width: 70%;
             display: flex;
             justify-content: space-between;
         }    
         .btn-foot{
-            background-color: #ffb6c1;
-            border: 1px dashed black;
-            padding:5px;
+            /* background-color: #ffb6c1; */
+            background-color: #7289da; 
+            /* border: 1px dashed black; */
+            /* padding:5px; */
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 20px 0;
-        }    
+            border-radius: 10px;
+            padding:10px;
+            border: none;
+            color: white;
+            font-size: 15px;
+        }
+            
+
+        .foot-logo{
+            width: 80%;
+        }
             
         
         
